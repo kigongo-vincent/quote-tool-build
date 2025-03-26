@@ -8,7 +8,7 @@ const allowedOrigins = [
   // Add more trusted domains as needed
 ];
 
-const BASE_URL = "http://localhost:8888"
+const BASE_URL = allowedOrigins[1]
 
 // Function to toggle modal visibility
 const toggleModalVisibility = () => {
