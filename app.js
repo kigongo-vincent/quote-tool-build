@@ -19,11 +19,11 @@ const toggleModalVisibility = () => {
 openModalBtn.addEventListener("click", toggleModalVisibility);
 
 // Close modal when clicking outside the iframe
-modal.addEventListener("click", (e) => {
-  if (e.target === modal) {
-    toggleModalVisibility();
-  }
-});
+// modal.addEventListener("click", (e) => {
+//   if (e.target === modal) {
+//     toggleModalVisibility();
+//   }
+// });
 
 // Function to adjust iframe height
 function adjustIframeHeight(iframe) {
