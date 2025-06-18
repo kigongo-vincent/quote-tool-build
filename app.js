@@ -62,7 +62,7 @@ const allowedOrigins = [
   // Add more trusted domains as needed
 ];
 
-const BASE_URL = allowedOrigins[0]; // You can switch this dynamically if needed
+const BASE_URL = allowedOrigins[1]; // You can switch this dynamically if needed
 
 // Function to toggle modal visibility
 const toggleModalVisibility = () => {
